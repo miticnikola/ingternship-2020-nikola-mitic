@@ -1,0 +1,24 @@
+//Mixins
+
+@mixin m0p0 {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin centeredXY {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin h5Properties {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $gray-light;
+  letter-spacing: 1px;
+}
+
+@mixin h2Properties {
+  line-height: 3.2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
